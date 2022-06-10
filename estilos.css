@@ -1,0 +1,100 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color: rgb(184, 48, 48);;
+}
+
+h1{
+    text-align: center;
+}
+
+.pokemon-list {
+    background-image: url("./imagenes/fondo2.jpg");
+    background-repeat: no-repeat, no-repeat;
+    background-size: 100%;
+    border-radius: 50px;
+    background-color: rgb(106, 182, 91);
+    width: 80%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    justify-content: center;
+
+    
+  }
+
+  .pokemon {
+    background-color: white;
+    width: 250px;
+    gap: 20px;
+    height: auto;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 10px 10px rgba(10, 10, 0, 0.349) ;
+  }
+  .poke-header {
+    width: 100%;
+    display: block;
+  }
+
+  h2{
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 3px solid rgb(148, 146, 146);
+    text-transform: capitalize;
+  }
+
+  .image-pokemon{
+    background-image: url(./blob.svg);
+    background-repeat: no-repeat;
+    background-position: auto;
+    border-radius: 50px;
+    background-size: 240px;
+    width: 150px;
+    height: 150px;
+    margin-top: calc(-48px - 5px);
+    padding-left: 60px;
+  }
+
+  p{
+    color: rgb(161, 161, 161);
+    font-weight: 400;
+  }
+
+  .card-stats{
+    display: flex;
+    justify-content:space-around;
+  }
+
+  .card-footer-social{
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  h3{
+    font-size: 2rem;
+    padding-left: 10px;
+  }
+  .texto-abajo{
+    font-size: 1.5rem;
+    color: rgb(172, 170, 170);
+    letter-spacing: 1px;
+  }
+  .titulo-poke{
+      width: 400px;
+      height: 150px;
+      padding-left: 70rem;
+  }
+
